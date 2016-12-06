@@ -8,7 +8,7 @@ public Player(String name){
 	}
 	
 	
-
+ 
 	public String playerName;
 	
 	public Pokemon pokemons;

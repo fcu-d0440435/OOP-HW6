@@ -6,7 +6,7 @@ public class Main {
 
 	    Player player1 = new Player("Player One");
 
-	    Pokemon pkm11 = new Pokemon("Bulbasaur", PokemonType.FIRE, 123);
+	    Pokemon pkm11 = new Pokemon("Bulbasaur ", PokemonType.FIRE, 123);
 	    Pokemon pkm12 = new Pokemon("Charmander", PokemonType.FIRE, 456);
 	    Pokemon pkm13 = new Pokemon("Psyduck", PokemonType.WATER, 89);
 

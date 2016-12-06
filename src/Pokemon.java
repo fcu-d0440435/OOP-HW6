@@ -5,7 +5,7 @@ public class Pokemon {
 	public int cp;
 	
 	private final String name;
-	public enum  PokemonType {
+	public enum  PokemonType { 
 		  FIRE, WATER, GRASS
 		}
 	public Pokemon(String name, PokemonType type, int cp) {
