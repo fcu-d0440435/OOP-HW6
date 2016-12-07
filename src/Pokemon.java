@@ -2,21 +2,20 @@
 public class Pokemon {
 	
 
-	public int cp;
+	private int cp;
 	
-	private final String name;
-	public enum  PokemonType { 
-		  FIRE, WATER, GRASS
-		}
+	private final String name; 
+	private final PokemonType type;
+
+	
 	public Pokemon(String name, PokemonType type, int cp) {
 		
 		this.name = name;
 		this.type=type;
 		this.cp = cp;
 	}
-	
-	
-	private PokemonType type;
+
+
 	public int getCp() {
 		return cp;
 	}
@@ -26,9 +25,7 @@ public class Pokemon {
 	public PokemonType getType() {
 		return type;
 	}
-	public void setType(PokemonType type) {
-		this.type = type;
-	}
+	
 	public String getName() {
 		return name;
 	}

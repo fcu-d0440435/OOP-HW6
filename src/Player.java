@@ -8,40 +8,37 @@ public Player(String name){
 	}
 	
 	
- 
-	public String playerName;
+  
+	private String playerName;
 	
-	public Pokemon pokemons;
+	private Pokemon[] pokemons;
 	
-	public int level=1;
+	private int level=1;
 
 	public String getPlayerName() {
 		return playerName;
 	}
-    public setPokemons (Pokemon p1){
-		
-    	return p1;
-		
+    
+	
+	public void setPokemons(Pokemon[] pokemons) {
+		this.pokemons = pokemons;
 	}
 	
+	public Pokemon[] getPokemons() {
+		return pokemons;
+	}
+
 	public void setPlayerName(String playerName) {
 		this.playerName = playerName;
 	}
 
-	public Pokemon getPokemons() {
-		return pokemons;
-	}
-
-	public void setPokemons(Pokemon pokemons) {
-		this.pokemons = pokemons;
-	}
-
+	
 	public int getLevel() {
 		return level;
 	}
 
 	public void setLevel(int level) {
-		this.level = level;
+		this.level = this.level+level;
 	}
 	
 

@@ -1,4 +1,4 @@
-import Pokemon.PokemonType;
+
 
 public class Main {
 	
@@ -6,7 +6,7 @@ public class Main {
 
 	    Player player1 = new Player("Player One");
 
-	    Pokemon pkm11 = new Pokemon("Bulbasaur ", PokemonType.FIRE, 123);
+ 	    Pokemon pkm11 = new Pokemon("Bulbasaur ", PokemonType.FIRE, 123);
 	    Pokemon pkm12 = new Pokemon("Charmander", PokemonType.FIRE, 456);
 	    Pokemon pkm13 = new Pokemon("Psyduck", PokemonType.WATER, 89);
 
@@ -19,7 +19,7 @@ public class Main {
 	    Pokemon pkm22 = new Pokemon("Gyarados", PokemonType.WATER, 987);
 	    Pokemon pkm23 = new Pokemon("Horsea", PokemonType.WATER, 89);
 
-	      Pokemon[] pkms2 = { pkm21, pkm22, pkm23 };
+	    Pokemon[] pkms2 = { pkm21, pkm22, pkm23 };
 	    player2.setPokemons(pkms2);
 	    
 	    GYM.fight(player1, player2);
