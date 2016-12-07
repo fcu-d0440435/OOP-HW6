@@ -4,7 +4,7 @@ public class GYM {
 	
 	  public static  Player fight(Player player1,Player player2){
 		  
-		 
+		  
 		  
 		 Pokemon pok1[] = player1.getPokemons();
 		  

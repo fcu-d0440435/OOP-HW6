@@ -20,7 +20,7 @@ public class Main {
 	    Pokemon pkm23 = new Pokemon("Horsea", PokemonType.WATER, 89);
 
 	    Pokemon[] pkms2 = { pkm21, pkm22, pkm23 };
-	    player2.setPokemons(pkms2);
+	    player2.setPokemons(pkms2); 
 	    
 	    GYM.fight(player1, player2);
 

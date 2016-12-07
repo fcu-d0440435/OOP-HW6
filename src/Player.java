@@ -26,7 +26,7 @@ public Player(String name){
 	
 	public Pokemon[] getPokemons() {
 		return pokemons;
-	}
+	} 
 
 	public void setPlayerName(String playerName) {
 		this.playerName = playerName;

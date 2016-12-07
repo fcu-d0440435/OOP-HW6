@@ -12,7 +12,7 @@ public class Pokemon {
 		
 		this.name = name;
 		this.type=type;
-		this.cp = cp;
+		this.cp = cp; 
 	}
 
 
